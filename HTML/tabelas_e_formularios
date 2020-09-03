@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Tabelas e Formulários</title>
+</head>
+<body>
+	<h1>Tabela</h1>
+	<h2>Despesas - 2° semestre 2019</h2>
+	<table>
+		<tr>
+			<th scope="col"></th>
+			<th scope="col">Julho</th>
+			<th scope="col">Agosto</th>
+			<th scope="col">Setembro</th>
+			<th scope="col">Outubro</th>
+			<th scope="col">Novembro</th>
+			<th scope="col">Dezembro</th>
+		</tr>
+		<tr>
+			<th scope="row">Luz</th>
+			<td>250,00</td>
+			<td>100,00</td>
+			<td>150,00</td>
+			<td>220,00</td>
+			<td>200,00</td>
+			<td>300,00</td>
+		</tr>
+		<tr>
+			<th scope="row">Água</th>
+			<td>60,00</td>
+			<td>50,00</td>
+			<td>30,00</td>
+			<td>15,00</td>
+			<td>25,00</td>
+			<td>70,00</td>
+		</tr>
+		<tr>
+			<th scope="row">Alimento</th>
+			<td>400,00</td>
+			<td>300,00</td>
+			<td>250,00</td>
+			<td>350,00</td>
+			<td>200,00</td>
+			<td>450,00</td>
+		</tr>
+		<tr>
+			<th scope="row">Telefone</th>
+			<td>149,29</td>
+			<td>149,29</td>
+			<td>149,29</td>
+			<td colspan="3">0,00</td>
+		</tr>
+		<tr>
+			<th scope="row">Celular</th>
+			<td colspan="3">0,00</td>
+			<td>89,99</td>
+			<td>89,99</td>
+			<td>89,99</td>
+		</tr>
+	</table>
+
+	<br><hr><br>
+
+	<h1>Formulário</h1>
+	<h2>Reclamações</h2>
+	<form>
+		<fieldset>
+		<legend>Dados do Cliente</legend>
+		<p>
+			<label>Nome: </label>
+			<input type="text" name="nome">
+		</p>
+		<p>
+			<label>CPF: </label>
+			<input type="text" name="cpf">
+		</p>
+		<p>
+			<label>Data de Nascimento: </label>
+			<input type="date" name="nascimento">
+		<p>
+		</p>
+			<label>Celular: </label>
+			<input type="text" name="celular">
+		</p>
+		<p>
+			<label>E-mail: </label>
+			<input type="email" name="email">
+		</p>
+		</fieldset>
+
+		<p></p>
+
+		<fieldset>
+		<legend>Dados do Produto</legend>
+		<p>Produto:
+			<input type="search" name="produto" placeholder="Buscar">
+		</p>
+		<p>Localização da loja que comprou o produto: <br>
+			<select name="lojas">
+				<option value="barraFunda">Barra Funda</option>
+				<option value="jabaquara">Jabaquara</option>
+				<option value="liberdade">Liberdade</option>
+				<option value="paulista">Paulista</option>
+				<option value="shoppingD">Shopping D</option>
+				<option value="tatuape">Tatuapé</option>
+			</select>
+		</p>
+
+		<p>Descrição do problema: <br>
+			<textarea name ="problema" cols="30" rows="5">Escreva seu problema aqui...</textarea>
+		</p>
+		
+		<p>Em caso de defeito, insira uma imagem: <br>
+			<input type="file" name="imagem"></p>
+		</fieldset>
+
+		<p><input type="submit" name="enviar" value="Enviar"></p>
+	</form>
+</body>
+
+</html>
