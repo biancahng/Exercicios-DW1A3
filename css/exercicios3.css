@@ -1,0 +1,67 @@
+body {
+	font-family: Century Gothic;
+	background-color: #ebfce8;
+}
+
+h1, h3 {
+	text-align: center;
+	color: #17a716;
+}
+
+h4 {
+	color: #17a716;
+	line-height: 5px;
+	margin-top: 40px;
+	margin-bottom: 5px;
+}
+
+table {
+	border: none;
+}
+
+th, td {
+	border: none;
+	background-color: #f0f0f0;
+	text-align: center;
+	
+}
+
+#col1 {
+	width: 75px;
+}
+
+#col2 {
+	width: 230px;
+	text-align: left;
+	padding-left: 5px;
+}
+
+#col3 {
+	width: 50px;
+}
+
+figure.direita {
+	float: right;
+	margin-right: 5px;
+	text-align: center;
+	
+}
+
+figure.esquerda {
+	float: left;
+	margin-left: 5px;
+	text-align: center;
+	
+}
+
+img.pequeno {
+	width: 150px;
+}
+
+img.medio {
+	width: 300px;
+}
+
+figcaption {
+	font-size: 13px;
+}
