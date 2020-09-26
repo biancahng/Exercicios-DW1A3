@@ -1,0 +1,27 @@
+body {
+	font-family: Corbel;
+	font-weight: bolder;
+	text-align: center;
+}
+
+h1 {
+	font-family: Helvetica;
+}
+
+input, textarea {
+	border: #81d1e6;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+
+input#submit {
+	background-color: #a7d7dd;
+	color: white;
+	margin-top: 10px;
+	border-radius: 1px;
+}
+
+	
