@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Formulário</title>
+		<link href="css/exercicios3-formulario.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1>Contato</h1>
+		<form>
+			<label>Nome<br><input id="nome" type="text" size="48"/></label><br>
+			<label>E-mail<br><input id="email" type="email" size="48"/></label><br>
+			<label>Telefone<br><input id="telefone" type="text" maxlength="13" size="48"/></label><br>
+			<label>Mensagem<br>
+				<textarea id="mensagem" cols="50" rows="5"></textarea><br>
+			<input id="submit" type="submit" value="Enviar">
+		</form>
+	</body>
+</html>
