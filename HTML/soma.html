@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		body {
+			font-family: Corbel;
+		}
+
+		.titulo {
+			font-size: 20px;
+			line-height: 5px;
+		}
+
+		.corpo {
+			font-size: 15px;
+			line-height: 5px;
+		}
+	</style>
+	<script>
+		function soma() {
+			var numero1 = document.getElementById("n1").value;
+        		var numero2 = document.getElementById("n2").value;
+        		var resultado = parseFloat(numero1)+parseFloat(numero2);
+			resposta.innerHTML = resultado;
+		}
+	</script>
+	
+	<title>Soma</title>
+</head>
+<body>
+	<h2 class="titulo">Soma<h2>
+	<label class="corpo">Digite o 1° número: </label>
+    	<input id="n1" type="text"/><br>
+    	<label class="corpo">Digite o 2° número: </label>
+    	<input id="n2" type="text"/><br>
+	<button type="button" onclick="soma()">Calcular</button><br>
+	<p class="corpo">Resposta: <div id="resposta" class="corpo"></div></p>
+</body>
+
+</html>

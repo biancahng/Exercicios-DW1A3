@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		body {
+			font-family: Corbel;
+		}
+
+		.titulo {
+			font-size: 20px;
+			line-height: 5px;
+		}
+
+		.corpo {
+			font-size: 15px;
+			line-height: 5px;
+		}
+	</style>
+	<script>
+		function fatorial() {
+			var numero = parseInt(document.getElementById("n").value);
+ 			var resultado = 1;
+
+  			for(var i=1; i<=numero ; i++)
+   				resultado *= i;
+
+			resposta.innerHTML = resultado;
+		}
+	</script>
+	
+	<title>Fatorial</title>
+</head>
+<body>
+	<h2 class="titulo">Fatorial<h2>
+	<label class="corpo">Digite o número: </label>
+    	<input id="n" type="number"/><br>
+	<button type="button" onclick="fatorial()">Calcular</button><br>
+	<p class="corpo">Resposta: <div id="resposta" class="corpo"></div></p>
+</body>
+
+</html>
